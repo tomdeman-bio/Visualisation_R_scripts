@@ -1,0 +1,2951 @@
+bmsd
+data = merge_phyloseq(biomot, bmsd)
+plot_richness(data, x = "Description") + geom_boxplot()
+plot_richness(data, x = "patient") + geom_boxplot()
+plot_richness(data) + geom_boxplot()
+data
+plot_richness(data)
+plot_richness
+plot_richness(data, x = "patient")
+bmsd
+plot_richness(data, x = "Description")
+file <-import_biom(/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/qiime_analysis/otus_denovo/otu_table.biom)
+file <-import_biom(""/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/qiime_analysis/otus_denovo/otu_table.biom")
+file <-import_biom("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/qiime_analysis/otus_denovo/otu_table.biom")
+file
+bmsd = import_qiime_sample_data(map_file)
+bmsd
+= merge_phyloseq(file, bmsd)
+set = merge_phyloseq(file, bmsd)
+set
+plot_richness(set, x = "Description")
+get_taxa_unique(set, "Phylum")
+rank_names(set)
+get_taxa_unique(set, "Phylum")
+plot_richness(set)
+plot_richness(set, measures=c("Observed","Shannon"))
+exit
+q()
+import BIOM#
+file <-import_biom("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/otu_table.biom")#
+#
+#import mapping file #
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/mapping_file_qiime_mdro.txt")#
+bmsd = import_qiime_sample_data(map_file)#
+#
+#tree file at a later point #
+#
+#merge BIOM file with mapping file#
+set = merge_phyloseq(file, bmsd)#
+#
+#plot alpha diversities #
+plot_richness(set, measures=c("Observed","Shannon"))
+library("phyloseq")
+library("ggplot2")
+library("grid")
+import BIOM#
+file <-import_biom("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/otu_table.biom")#
+#
+#import mapping file #
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/mapping_file_qiime_mdro.txt")#
+bmsd = import_qiime_sample_data(map_file)#
+#
+#tree file at a later point #
+#
+#merge BIOM file with mapping file#
+set = merge_phyloseq(file, bmsd)#
+#
+#plot alpha diversities #
+plot_richness(set, measures=c("Observed","Shannon"))
+packageVersion("ggplot2")
+map_file
+bmsd
+import_qiime_sample_data
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/mapping_file_qiime_mdro.txt")
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/map-new.txt")
+bmsd = import_qiime_sample_data(map_file)
+set = merge_phyloseq(file, bmsd)
+plot_richness(set, measures=c("Observed","Shannon"))
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/mapping_file_qiime_mdro.txt")
+bmsd = import_qiime_sample_data(map_file)
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/mapping_file_qiime_mdro.txt")
+bmsd = import_qiime_sample_data(map_file)
+file
+QiimeMap <- read.table(file = map_file, header = TRUE, sep = "\t", comment.char = "")
+QiimeMap
+rownames(QiimeMap) <- as.character(QiimeMap[, 1])
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/mapping_file_qiime_mdro.txt")
+QiimeMap <- read.table(file = map_file, header = TRUE, sep = "\t", comment.char = "")
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/map-new.txt")
+QiimeMap <- read.table(file = map_file, header = TRUE, sep = "\t", comment.char = "")
+QiimeMap
+q(0)
+q()
+loading bioconductor modules#
+library("phyloseq")#
+library("ggplot2")#
+library("grid")#
+library("scales")#
+#
+#import BIOM#
+file <-import_biom("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/otu_table.biom")#
+#
+#import mapping file #
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/mapping_file_qiime_mdro.txt")#
+bmsd = import_qiime_sample_data(map_file)#
+#
+#import tree file at a later point #
+#
+#merge BIOM file with mapping file#
+set = merge_phyloseq(file, bmsd)#
+#
+#plot alpha diversities #
+plot_richness(set, measures=c("Observed","Shannon"))
+loading bioconductor modules#
+library("phyloseq")#
+library("ggplot2")#
+library("grid")#
+library("scales")#
+#
+#import BIOM#
+file <-import_biom("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/otu_table.biom")#
+#
+#import mapping file #
+map_file =("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/PICRUST/No_6A/mapping_file_qiime_mdro.txt")#
+bmsd = import_qiime_sample_data(map_file)#
+#
+#import tree file at a later point #
+#
+#merge BIOM file with mapping file#
+set = merge_phyloseq(file, bmsd)#
+#
+#plot alpha diversities #
+plot_richness(set, measures=c("Shannon"))
+library("Hmisc")
+d = data.frame(#
+  x  = c(1:5)#
+  , y  = c(1.1, 1.5, 2.9, 3.8, 5.2)#
+  , sd = c(0.2, 0.3, 0.2, 0.0, 0.4)#
+)#
+#
+##install.packages("Hmisc", dependencies=T)#
+library("Hmisc")#
+#
+# add error bars (without adjusting yrange)#
+plot(d$x, d$y, type="n")#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=T, pch=1, cap=.1)#
+)#
+#
+# new plot (adjusts Yrange automatically)#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=F, pch=1, cap=.015, log="x")#
+)
+d = data.frame(#
+  x  = c(1:5)#
+  , y  = c(5.9, 6.0, 3.7, 5.1, 0.9, 0.7, 5.1, 2.4, 0.5, 2.2, 4.5, 0.2)#
+  , sd = c(0.04, 0.07, 0.05, 0.03, 0.03, 0.03, 0.06, 0.04, 0.02, 0.04, 0.07, 0.02)#
+)#
+#
+# add error bars (without adjusting yrange)#
+plot(d$x, d$y, type="n")#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=T, pch=1, cap=.1)#
+)#
+#
+# new plot (adjusts Yrange automatically)#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=F, pch=1, cap=.015, log="x")#
+)
+d = data.frame(#
+  x  = c(FD201306, FD201310, MDRO04, MDRO05, MDRO06, MDRO07, MDRO08, MDRO09, MDRO10, MDRO11, MDRO12, MDRO13)#
+  , y  = c(5.9, 6.0, 3.7, 5.1, 0.9, 0.7, 5.1, 2.4, 0.5, 2.2, 4.5, 0.2)#
+  , sd = c(0.04, 0.07, 0.05, 0.03, 0.03, 0.03, 0.06, 0.04, 0.02, 0.04, 0.07, 0.02)#
+)#
+#
+# add error bars (without adjusting yrange)#
+plot(d$x, d$y, type="n")#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=T, pch=1, cap=.1)#
+)#
+#
+# new plot (adjusts Yrange automatically)#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=F, pch=1, cap=.015, log="x")#
+)
+d = data.frame(#
+  #x  = c(FD201306, FD201310, MDRO04, MDRO05, MDRO06, MDRO07, MDRO08, MDRO09, MDRO10, MDRO11, MDRO12, MDRO13)#
+  x = c(1:12)#
+  , y  = c(5.9, 6.0, 3.7, 5.1, 0.9, 0.7, 5.1, 2.4, 0.5, 2.2, 4.5, 0.2)#
+  , sd = c(0.04, 0.07, 0.05, 0.03, 0.03, 0.03, 0.06, 0.04, 0.02, 0.04, 0.07, 0.02)#
+)#
+#
+# add error bars (without adjusting yrange)#
+plot(d$x, d$y, type="n")#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=T, pch=1, cap=.1)#
+)#
+#
+# new plot (adjusts Yrange automatically)#
+with (#
+  data = d#
+  , expr = errbar(x, y, y+sd, y-sd, add=F, pch=1, cap=.015, log="x")#
+)
+data <- read.csv("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")
+data
+data <- read.csv("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12*2-1#
+CI.up = as.numeric(data$diversity.mean)+as.numeric(data$diversity.sd)#
+CI.dn = as.numeric(data$diversity.mean)-as.numeric(data$diversity.sd)#
+plot(data$diversity.mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='lalala!', main='blahblahblah',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+names
+data <- read.txt("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12*2-1#
+CI.up = as.numeric(data$diversity.mean)+as.numeric(data$diversity.sd)#
+CI.dn = as.numeric(data$diversity.mean)-as.numeric(data$diversity.sd)#
+plot(data$diversity.mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='lalala!', main='blahblahblah',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12*2-1#
+CI.up = as.numeric(data$diversity.mean)+as.numeric(data$diversity.sd)#
+CI.dn = as.numeric(data$diversity.mean)-as.numeric(data$diversity.sd)#
+plot(data$diversity.mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='lalala!', main='blahblahblah',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12*2-1#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='lalala!', main='blahblahblah',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12*2-1#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='lalala!', main='blahblahblah',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='lalala!', main='blahblahblah',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='Shannon', main='Alpha diversity',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.3,0.40), xlab='',ylab='Shannon diversity index',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='blue',pch=16)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='blue',pch=8)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='black',pch=7)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=1.5,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.7,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.2,angle=90,col='red')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.7,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.1,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.1,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(0, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+#x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, , labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+#x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12*1#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=NULL, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')
+library(MASS)#
+#
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt",sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames.tiff", height=600, width=600, bg="white")
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", #
+  main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), cex=.7)#
+#
+dev.off()
+library(MASS)#
+#
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/unweighted_unifrac_dm_shortNames.txt",sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_unweighted_unifrac.tiff", height=600, width=600, bg="white")
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", #
+  main="unweighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), cex=.7)#
+#
+dev.off()
+library(MASS)#
+#
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/unweighted_unifrac_dm_shortNames.txt",sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_unweighted_unifrac.tiff", height=600, width=600, bg="white")
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1", ylab="Coordinate 2", #
+  main="Unweighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), cex=.7)#
+#
+dev.off()
+q()
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Alpha_div_shannon_shortName.tiff", height=600, width=600, bg="white")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')#
+#
+dev.off()
+q()
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values_ordered_on_value.txt", header=TRUE, sep="\t")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Alpha_div_shannon_shortName.tiff", height=600, width=600, bg="white")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')#
+#
+dev.off()
+q()
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")
+text(x, y, labels = row.names(mydata), col=c("darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "green", "gold”), cex=.7)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")
+text(x, y, labels = row.names(mydata), col=c("darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c("darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “green”, “blue, “red”, “blue”), cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “green”, “blue”, “red”, “blue”), cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(,“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “green”, “blue”, “red”, “blue”), cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “green”, “blue”, “red”, “blue”), cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”"darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c("darkorange”, “green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”"darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c("darkorange”, “green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”, ”darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c("darkorange”, “green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+#
+text(x, y, labels = row.names(mydata), col=c("darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+#
+text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+#
+text(x, y, labels = row.names(mydata), col=c(“darkorange”, “gold”, "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+#
+text(x, y, labels = row.names(mydata), col=c("darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type="n")#
+#
+text(x, y, labels = row.names(mydata), col=c("darkorange", “gold”, "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.53%)", main="Weighted UniFrac beta diversity", type=“n”)#
+#
+text(x, y, labels = row.names(mydata), col=c("darkorange", “gold”, "darkorange", "darkorange", "darkorange", "darkorange", "purple4", "violetred1", "darkorange", "dark green", "gold", "gold", "red", "blue", "blue", "blue", "blue", "blue"), cex=1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=600, width=600, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab=“Coordinate 1 (37.41%)”, ylab=“Coordinate 2 (19.53%)”, main=“Weighted UniFrac beta diversity”, tpye=“n”)#
+text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+#text(x, y, labels = row.names(mydata), col=c(“green”,“gold”,“red”,“red”,“blue”,“red”,“green”,“green”,“green”,“blue”,“red”,“blue”),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac beta diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","black","black","black","black","red","green","black","green","red","red","red"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac beta diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","black","red","black","black","red","green","black","green","black","red","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac beta diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("green","black","red","black","black","red","green","green","green","purple","red","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac beta diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("green","black","orange","black","black","orange","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+exit
+q()
+B <- c(4606, 8265, 2632, 5477, 571687)#
+#
+barplot(B, main="repetitive ELEMENTS", ylab="Length occupied (bp)")
+B <- c(4606, 8265, 2632, 5477, 571687)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="repetitive elements", ylab="Length occupied (bp)")
+B <- c(4606, 8265, 2632, 5477, 571687)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="Repetitive elements", ylab="Length occupied (bp)", col=colours)
+B <- c(4606, 8265, 2632, 5477, 571687)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="Repetitive elements", ylab="Length occupied (bp)", col=colours)#
+#
+legend("topleft", c("First","Second","Third","Fourth","Fifth"), cex=1.3, bty="n", fill=colours)
+B <- c(4606, 8265, 2632, 5477, 571687)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="Repetitive elements", ylab="Length occupied (bp)", col=colours)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA","Simple repeats"), cex=1.3, bty="n", fill=colours)
+B <- c(4606, 8265, 2632, 5477, 571687)#
+colours <- c("red", "orange", "blue", "green")#
+#
+barplot(B, main="Repetitive elements", ylab="Length occupied (bp)", col=colours)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA"), cex=1.3, bty="n", fill=colours)
+B <- c(4606, 8265, 2632, 5477)#
+colours <- c("red", "orange", "blue", "green")#
+#
+barplot(B, main="Repetitive elements", ylab="Length occupied (bp)", col=colours)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA"), cex=1.3, bty="n", fill=colours)
+B <- c(4606, 8265, 2632, 5477)#
+colours <- c("red", "orange", "blue", "green")#
+#
+barplot(B, main="Repetitive elements", ylab="Length occupied (bp)", col=colours)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L, 5477L), Y = c(56663L, 302L, 2059L, 7153718L)), .Names = c("X", "Y"), class = "data.frame", row.names = c(NA, -4L))#
+attach(data)#
+print(data)
+data <- structure(list(X = c(4606L, 8265L, 2632L, 5477L), Y = c(56663L, 302L, 2059L, 7153718L)), .Names = c("X", "Y"), class = "data.frame", row.names = c(NA, -4L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "orange", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA"), cex=1.3, bty="n", fill=colours)
+ata <- structure(list(X = c(4606L, 8265L, 2632L, 5477L), Y = c(56663L, 302L, 2059L, 7153718L)), .Names = c("X", "Y"), class = "data.frame", row.names = c(NA, -4L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "orange", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours, beside=TRUE)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L, 5477L), Y = c(56663L, 302L, 2059L, 7153718L)), .Names = c("X", "Y"), class = "data.frame", row.names = c(NA, -4L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "orange", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons","Small RNA"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("X", "Y"), class = "data.frame", row.names = c(NA, -4L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("X", "Y"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topright", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Repetitive elements", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)
+Inter repeats#
+#
+par(mfrow=c(2,2))#
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)
+par(mfrow=c(2,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)
+par(mfrow=c(2,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)
+par(mfrow=c(2,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)
+par(mfrow=c(2,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("orange", "yellow", "purple")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)
+tiff('Repeats-escovopsis.tiff')#
+#
+par(mfrow=c(2,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("orange", "yellow", "purple")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('Repeats-escovopsis.tiff', width = 800, height = 600)#
+#
+par(mfrow=c(2,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("orange", "yellow", "purple")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('Repeats-escovopsis.tiff', width = 800, height = 600)#
+#
+par(mfrow=c(1,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("orange", "yellow", "purple")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('Repeats-escovopsis.tiff', width = 800, height = 400)#
+#
+par(mfrow=c(1,2))#
+#
+#Inter repeats #
+data <- structure(list(X = c(4606L, 8265L, 2632L), Y = c(56663L, 302L, 2059L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data)#
+print(data)#
+#
+colours <- c("red", "blue", "green")#
+#
+barplot(as.matrix(data), main="Interspersed repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Ty1/Copia","Gypsy/DIRS1","DNA transposons"), cex=1.3, bty="n", fill=colours)#
+#
+#misc repeats#
+data2 <- structure(list(X = c(5477L, 571687L, 459945L), Y = c(7153718L, 1130675L, 206827L)), .Names = c("Genome assembly", "Unmapped reads"), class = "data.frame", row.names = c(NA, -3L))#
+attach(data2)#
+print(data2)#
+#
+colours <- c("orange", "yellow", "purple")#
+#
+barplot(as.matrix(data2), main="Other repeats", ylab="Length occupied (bp)", col=colours, beside=TRUE, cex.lab = 1.5, cex.main = 1.4)#
+#
+legend("topleft", c("Small RNA","Simple repeats","Low complexity"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+B <- c(3, 2, 25, 37, 22, 34, 19)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topleft", c("First","Second","Third","Fourth","Fifth"), cex=1.3, bty="n", fill=colours)
+B <- c(3, 2, 25, 37, 22, 34, 19)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topleft", c("B <- c(3, 2, 25, 37, 22, 34, 19)
+q
+B <- c(3, 2, 25, 37, 22, 34, 19)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topleft", c("First","Second","Third","Fourth","Fifth"), cex=1.3, bty="n", fill=colours)
+B <- c(3, 2, 25, 37, 22, 34, 19)#
+colours <- c("red", "orange", "blue", "yellow", "green")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topleft", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim" ), cex=1.3, bty="n", fill=colours)
+B <- c(3, 2, 25, 37, 22, 34, 19)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "yellow", "purple", "darkcyan")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topleft", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim" ), cex=1.3, bty="n", fill=colours)
+B <- c(156, 1158, 3, 68, 244, 75, 38, 7, 3, 43, 42)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "yellow", "purple", "darkcyan", "cornsilk", "aquamarine", "coral")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topleft", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim" ), cex=1.3, bty="n", fill=colours)
+tiff('ARG-ANNOT-SSTAR.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 244, 75, 38, 7, 3, 43, 42)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "yellow", "purple", "darkcyan", "cornsilk", "aquamarine", "coral")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim" ), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('ARG-ANNOT-SSTAR.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "yellow", "purple", "darkcyan", "cornsilk", "aquamarine", "coral")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim" ), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+q()
+tiff('ARG-ANNOT-SSTAR.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42, 8)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "cornsilk", "purple", "darkcyan", "yellow", "aquamarine", "coral", "lightblue")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurences", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim", "Outer membrane porins"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('ARG-ANNOT-SSTAR.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42, 8)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "cornsilk", "purple", "darkcyan", "yellow", "aquamarine", "coral", "lightblue")#
+#
+barplot(B, main="SSTAR ARG-ANNOT database", ylab = "Occurence", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim", "outer membrane porins"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('ARG-ANNOT-SSTAR.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42, 8)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "cornsilk", "purple", "darkcyan", "yellow", "aquamarine", "coral", "lightblue")#
+#
+barplot(B, main="SSTAR custom database", ylab = "Occurence", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim", "outer membrane porins"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values.txt", header=TRUE, sep="\t")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Alpha_div_shannon_shortName.tiff", height=700, width=700, bg="white")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+#text(x, y, labels = row.names(data), col=c("black","black","black","black","black","red","green","black","green","red","red","red"),cex=1.1)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')#
+#
+dev.off()
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values_no12-13.txt", header=TRUE, sep="\t")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Alpha_div_shannon_shortName.tiff", height=700, width=700, bg="white")#
+#
+names=data$SampleID#
+x = 1:12#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+#text(x, y, labels = row.names(data), col=c("black","black","black","black","black","red","green","black","green","red","red","red"),cex=1.1)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')#
+#
+dev.off()
+data <- read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_arare_map_file_qiime_no_6A_5000/Shannon_values_no12-13.txt", header=TRUE, sep="\t")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Alpha_div_shannon_shortName.tiff", height=700, width=700, bg="white")#
+#
+names=data$SampleID#
+x = 1:10#
+CI.up = as.numeric(data$mean)+as.numeric(data$sd)#
+CI.dn = as.numeric(data$mean)-as.numeric(data$sd)#
+plot(data$mean~x, cex=0.4,xaxt='n',ylim=c(0.0,6.5), xlab='Human subjects',ylab='Shannon diversity index',col='black')#
+#text(x, y, labels = row.names(data), col=c("black","black","black","black","black","red","green","black","green","red","red","red"),cex=1.1)#
+axis(1, at=x, labels=names)#
+arrows(x,CI.dn,x,CI.up,code=3,length=0.05,angle=90,col='black')#
+#
+dev.off()
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac beta diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("green","black","orange","black","black","orange","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","red","orange","black","black","orange","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","orange","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (37.41%)", ylab="Coordinate 2 (19.52%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Coordinate 1 (34.13%)", ylab="Coordinate 2 (18.86%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+exit
+q()
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","green","green","purple","orange","purple"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+exit
+q()
+tiff('ARG-ANNOT-SSTAR-new-title.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42, 8)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "cornsilk", "purple", "darkcyan", "yellow", "aquamarine", "coral", "lightblue")#
+#
+barplot(B, main="SSTAR SRST2 ARG-ANNOT database", ylab = "Occurence", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim", "outer membrane porins"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('ARG-ANNOT-SSTAR-new-title.tiff', width = 800, height = 400)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42, 9)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "cornsilk", "purple", "darkcyan", "yellow", "aquamarine", "coral", "lightblue")#
+#
+barplot(B, main="SSTAR SRST2 ARG-ANNOT database", ylab = "Occurence", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim", "outer membrane porins"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+tiff('ARG-ANNOT-SSTAR-new-title.tiff', width = 900, height = 500)#
+#
+B <- c(156, 1158, 3, 68, 88, 75, 38, 7, 3, 43, 42, 9)#
+colours <- c("red", "orange", "blue", "burlywood", "green", "cornsilk", "purple", "darkcyan", "yellow", "aquamarine", "coral", "lightblue")#
+#
+barplot(B, main="SSTAR SRST2 ARG-ANNOT database", ylab = "Occurence", cex.lab = 1.5, cex.main = 1.4, beside=TRUE, col=colours)#
+#
+legend("topright", c("aminoglycosides","beta-lactamases","fosfomycin","fluoroquinolones","glycopeptides","macrolide-lincosamide-streptogramin","phenicols","rifampicin","sulfonamides","tetracyclines","trimethoprim", "outer membrane porins"), cex=1.3, bty="n", fill=colours)#
+#
+dev.off()
+data <- c(55, 142)#
+cols <- c("black", "white")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "CRE"), cex=0.8, fill=cols)
+par(mfrow=c(1,2))#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("black", "white")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "CRE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("grey90", "grey50", "black", "grey30", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols)
+par(mfrow=c(1,2))#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("black", "white")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "CRE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols)
+CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("black", "white")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "CRE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#kpc 3 - kpc 2 - NDM1 - NMC A - OXA 232
+par(mfrow=c(1,2))#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("black", "white")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "CRE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#kpc 3 - kpc 2 - NDM1 - NMC A - OXA 232
+par(mfrow=c(1,2))#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "CRE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)
+par(mfrow=c(1,2))#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CRE", "CPE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#kpc 3 - kpc 2 - NDM1 - NMC A - OXA 232
+par(mfrow=c(2,2))#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs CRE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CRE", "CPE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemases", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#
+#CRE porins#
+data_omp <- c(34, 21)#
+cols3 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels3 <- round(100*data_omp/sum(data_omp), 1)#
+#add % sign to each value#
+pielabels3 <- paste(percentlabels3, "%", sep="")#
+#create chart#
+pie(data_omp, main="Porins on CRE", col = cols3, labels=pielabels3, cex=0.8)#
+#
+#create legend#
+legend("topright", c("truncated porin + ampC/ESBL", "modified porin + ampC/ESBL"), cex=0.8, fill=cols3)
+exit
+q()
+tiff('MUGSI-charts.tiff', width = 900, height = 600)#
+#
+par(mfrow=c(2,2), mar=c(2,0,2,0)+0.5)#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs non CPE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CRE", "CPE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemase prevalence in CPE", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#
+#CRE porins#
+data_omp <- c(34, 21)#
+cols3 <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels3 <- round(100*data_omp/sum(data_omp), 1)#
+#add % sign to each value#
+pielabels3 <- paste(percentlabels3, "%", sep="")#
+#create chart#
+pie(data_omp, main="Porins + ESBL/ampC in non CPE", col = cols3, labels=pielabels3, cex=0.8)#
+#
+#create legend#
+legend("topright", c("truncated porin", "modified porin"), cex=0.8, fill=cols3)#
+#
+#ESBL genes#
+data_esbl <- c(64, 65, 27, 21)#
+cols4 <- c("azure3", "beige", "bisque4", "black")#
+#
+#calculate percentage#
+percentlabels4 <- round(100*data_esbl/sum(data_esbl), 1)#
+#add % sign to each value#
+pielabels4 <- paste(percentlabels4, "%", sep="")#
+#create chart#
+pie(data_esbl, main="ESBL gene prevalence in both CPE and non CPE", col = cols4, labels=pielabels4, cex=0.8)#
+#
+#create legend#
+legend("topright", c("TEM", "SHV-11", "SHV-12", "CTX-M-15"), cex=0.8, fill=cols4)#
+#
+dev.off()
+tiff('MUGSI-charts.tiff', width = 900, height = 600)#
+#
+par(mfrow=c(2,2), mar=c(2,0,2,0)+0.5)#
+#
+#CPE Vs CRE#
+data <- c(55, 142)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs non CPE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("non CPE", "CPE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemase prevalence in CPE", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#
+#CRE porins#
+data_omp <- c(34, 21)#
+cols3 <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels3 <- round(100*data_omp/sum(data_omp), 1)#
+#add % sign to each value#
+pielabels3 <- paste(percentlabels3, "%", sep="")#
+#create chart#
+pie(data_omp, main="Porins + ESBL/ampC in non CPE", col = cols3, labels=pielabels3, cex=0.8)#
+#
+#create legend#
+legend("topright", c("truncated porin + esbl/ampC", "modified porin + esbl/ampC"), cex=0.8, fill=cols3)#
+#
+#ESBL genes#
+data_esbl <- c(64, 65, 27, 21)#
+cols4 <- c("azure3", "beige", "bisque4", "black")#
+#
+#calculate percentage#
+percentlabels4 <- round(100*data_esbl/sum(data_esbl), 1)#
+#add % sign to each value#
+pielabels4 <- paste(percentlabels4, "%", sep="")#
+#create chart#
+pie(data_esbl, main="ESBL gene prevalence in both CPE and non CPE", col = cols4, labels=pielabels4, cex=0.8)#
+#
+#create legend#
+legend("topright", c("TEM", "SHV-11", "SHV-12", "CTX-M-15"), cex=0.8, fill=cols4)#
+#
+dev.off()
+tiff('MUGSI-charts.tiff', width = 900, height = 600)#
+#
+par(mfrow=c(2,2), mar=c(2,0,2,0)+0.5)#
+#
+#CPE Vs CRE#
+data <- c(142, 55)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs non CPE", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "non CPE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemase prevalence in CPE", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#
+#CRE porins#
+data_omp <- c(34, 21)#
+cols3 <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels3 <- round(100*data_omp/sum(data_omp), 1)#
+#add % sign to each value#
+pielabels3 <- paste(percentlabels3, "%", sep="")#
+#create chart#
+pie(data_omp, main="Porins + ESBL/ampC in non CPE", col = cols3, labels=pielabels3, cex=0.8)#
+#
+#create legend#
+legend("topright", c("truncated porin + esbl/ampC", "modified porin + esbl/ampC"), cex=0.8, fill=cols3)#
+#
+#ESBL genes#
+data_esbl <- c(64, 65, 27, 21)#
+cols4 <- c("azure3", "beige", "bisque4", "black")#
+#
+#calculate percentage#
+percentlabels4 <- round(100*data_esbl/sum(data_esbl), 1)#
+#add % sign to each value#
+pielabels4 <- paste(percentlabels4, "%", sep="")#
+#create chart#
+pie(data_esbl, main="ESBL gene prevalence in both CPE and non CPE", col = cols4, labels=pielabels4, cex=0.8)#
+#
+#create legend#
+legend("topright", c("TEM", "SHV-11", "SHV-12", "CTX-M-15"), cex=0.8, fill=cols4)#
+#
+dev.off()
+q()
+tiff('MUGSI-charts.tiff', width = 900, height = 600)#
+#
+par(mfrow=c(2,2), mar=c(2,0,2,0)+0.5)#
+#
+#CPE Vs CRE#
+data <- c(141, 56)#
+cols <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="CPE vs non CPE (n=197)", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("CPE", "non CPE"), cex=0.8, fill=cols)#
+#
+#CPE #
+data_cpe <- c(109, 30, 1, 1, 1)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="Carbapenemase prevalence in CPE (n=141)", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("KPC-3", "KPC-2", "NDM-1", "NMC-A", "OXA-232"), cex=0.8, fill=cols2)#
+#
+#CRE porins#
+data_omp <- c(35, 21)#
+cols3 <- c("azure3", "beige")#
+#
+#calculate percentage#
+percentlabels3 <- round(100*data_omp/sum(data_omp), 1)#
+#add % sign to each value#
+pielabels3 <- paste(percentlabels3, "%", sep="")#
+#create chart#
+pie(data_omp, main="Porins + ESBL/ampC in non CPE (n=56)", col = cols3, labels=pielabels3, cex=0.8)#
+#
+#create legend#
+legend("topright", c("truncated porin + esbl/ampC", "modified porin + esbl/ampC"), cex=0.8, fill=cols3)#
+#
+#ESBL genes#
+data_esbl <- c(64, 65, 27, 21)#
+cols4 <- c("azure3", "beige", "bisque4", "black")#
+#
+#calculate percentage#
+percentlabels4 <- round(100*data_esbl/sum(data_esbl), 1)#
+#add % sign to each value#
+pielabels4 <- paste(percentlabels4, "%", sep="")#
+#create chart#
+pie(data_esbl, main="ESBL gene prevalence in both CPE and non CPE (n=177)", col = cols4, labels=pielabels4, cex=0.8)#
+#
+#create legend#
+legend("topright", c("TEM", "SHV-11", "SHV-12", "CTX-M-15"), cex=0.8, fill=cols4)#
+#
+dev.off()
+q()
+tiff('MUGSI-MLST.tiff', width = 900, height = 600)#
+#
+#par(mfrow=c(1,3), mar=c(2,0,2,0)+0.5)#
+#par(mfrow=c(1,3))#
+#
+#KP#
+data <- c(78, 4, 4, 34)#
+cols <- c("azure3", "beige", "bisque4", "black")#
+#
+#calculate percentage#
+percentlabels <- round(100*data/sum(data), 1)#
+#add % sign to each value#
+pielabels <- paste(percentlabels, "%", sep="")#
+#create chart#
+pie(data, main="Klebsiella pneumoniae ST types (n=120)", col = cols, labels=pielabels, cex=0.8)#
+#
+#create legend#
+legend("topright", c("ST-258", "ST-15", "ST-340", "Other types"), cex=0.8, fill=cols)#
+#
+dev.off()
+tiff('MUGSI-MLST.tiff', width = 900, height = 600)#
+#
+#E coli#
+data_cpe <- c(11, 3, 13)#
+cols2 <- c("azure3", "beige", "bisque4", "black", "white")#
+#
+#calculate percentage#
+percentlabels2 <- round(100*data_cpe/sum(data_cpe), 1)#
+#add % sign to each value#
+pielabels2 <- paste(percentlabels2, "%", sep="")#
+#create chart#
+pie(data_cpe, main="E. coli ST types (n=27)", col = cols2, labels=pielabels2, cex=0.8)#
+#
+#create legend#
+legend("topright", c("ST-131", "ST-410", "Other types"), cex=0.8, fill=cols2)#
+#
+dev.off()
+tiff('MUGSI-MLST.tiff', width = 900, height = 600)#
+#
+#E cloacae#
+data_omp <- c(10, 3, 18)#
+cols3 <- c("azure3", "beige", "bisque4")#
+#
+#calculate percentage#
+percentlabels3 <- round(100*data_omp/sum(data_omp), 1)#
+#add % sign to each value#
+pielabels3 <- paste(percentlabels3, "%", sep="")#
+#create chart#
+pie(data_omp, main="Enterobacter cloacae ST types (n=31)", col = cols3, labels=pielabels3, cex=0.8)#
+#
+#create legend#
+legend("topright", c("ST-171", "ST108", "other ST types"), cex=0.8, fill=cols3)#
+#
+dev.off()
+require(gridExtra)
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = FALSE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE, yaxt="n")#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE, abline(h=c(1,5,7)))#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(1,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)), abline(h=c(1,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)), abline(v=c(1,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)), abline(v=seq(1,10,2),lty=2,col="blue"))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)), abline(v=c(0,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)), abline(v=seq(0,5,7)))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7)), abline(v=seq(0,5,7)), lty=2)#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","green","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7),lty=2), abline(v=seq(0,5,7),lty=2))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","black","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7),lty=2), abline(v=seq(0,5,7),lty=2))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","black","green","purple","orange","purple"),cex=1.1, abline(h=c(0,5,7),lty=2), abline(v=seq(0,5,7),lty=2))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+exit
+q
+q(0)
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","black","black","green","black","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7),lty=2), abline(v=seq(0,5,7),lty=2))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+library(MASS)
+mydata<-read.table("/Users/tomdeman/Documents/Studie/CDC/Microbiome_project_emory/MDRO_qiime/wf_bdiv_even_filtered_map_file_qiime_no_6A_e5000/weighted_unifrac_dm_shortNames_no12_no13.txt", sep = "")#
+#
+tiff(filename="/Users/tomdeman/Desktop/Beta-div_shortNames_weighted_unifrac.tiff", height=700, width=700, bg="white")#
+#
+d <- dist(mydata) # euclidean distances between the rows#
+fit <- cmdscale(d,eig=TRUE, k=2) # k is the number of dim#
+fit # view results#
+#
+# plot solution #
+x <- fit$points[,1]#
+y <- fit$points[,2]#
+#
+plot(x, y, xlab="Percentage variation explained (34.13%)", ylab="Percentage variation explained (18.86%)", main="Weighted UniFrac Beta Diversity", type="n", axes = TRUE)#
+#text(x, y, labels = row.names(mydata), col=c(“green”, “gold”, “red”, “red”, “blue”, “red”, “green”, “green”, “blue”, “red”, “blue”), vex-1.1)#
+#
+text(x, y, labels = row.names(mydata), col=c("black","orange","orange","black","green","black","green","black","orange","black"),cex=1.1, abline(h=c(0,5,7),lty=2), abline(v=seq(0,5,7),lty=2))#
+dev.off()#
+#
+100*fit$eig/sum(fit$eig)
+library(cummeRbund)
+VerticalHist <- function(x, xscale = NULL, xwidth, hist,#
+                         fillCol = "gray80", lineCol = "gray40") {#
+    ## x (required) is the x position to draw the histogram#
+    ## xscale (optional) is the "height" of the tallest bar (horizontally),#
+    ##   it has sensible default behavior#
+    ## xwidth (required) is the horizontal spacing between histograms#
+    ## hist (required) is an object of type "histogram"#
+    ##    (or a list / df with $breaks and $density)#
+    ## fillCol and lineCol... exactly what you think.#
+    binWidth <- hist$breaks[2] - hist$breaks[1]#
+    if (is.null(xscale)) xscale <- xwidth * 0.90 / max(hist$density)#
+    n <- length(hist$density)#
+    x.l <- rep(x, n)#
+    x.r <- x.l + hist$density * xscale#
+    y.b <- hist$breaks[1:n]#
+    y.t <- hist$breaks[2:(n + 1)]#
+    rect(xleft = x.l, ybottom = y.b, xright = x.r, ytop = y.t,#
+         col = fillCol, border = lineCol)#
+}#
+##inputformat pop1locus1, pop2locus1, pop3locus1, ...popnlocusn RogerMills, Ellis, Payne, Finney, Limon, Purdhum, TwinStars#
+datasm14=c(2, 1, 6, 6, 6, 2, 2, 2, 3, 6, 6, 7, 2, 5, 2, 4, 6, 8, 10, 8, 6, 2, 4, 6, 9, 12, 9, 8, 6, 6, 8, 10, 12, 10, 8, 6, 6, 8, 10, 12, 10, 9, 6, 6, 8, 10, 13, 10, 9, 6, 6, 8, 10, 13, 11, 10, 6, 6, 8, 12, 13, 11, 10, 6, 6, 8, 13, 13, 11, 10, 10, 6, 8, 13, 14, 12, 10, 12, 11, 10, 13, 14, 12, 10, 12, 11, 10, 13, 15, 12, 12, 12, 11, 10, 13, 16, 16, 12)#
+datasm1=c(1, 3, 2, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 2, 4, 3, 3, 3, 4, 3, 3, 4, 4, 3, 3, 4, 3, 3, 4, 4, 3, 4, 4, 4, 3, 6, 4, 3, 4, 7, 4, 3, 7, 6, 3, 4, 7, 4, 3, 7, 7, 4, 4, 8, 4, 3, 7, 7, 4, 5, 9, 4, 3, 7, 7, 4, 5, 9, 4, 3, 7, 8, 7, 7, 10, 4, 3, 7, 11, 7, 7, 10, 4, 3, 8, 12, 9, 7, 10, 10, 7, 13, 13, 13, 7)#
+datasb15=c(1, 3, 3, 1, 3, 3, 3, 1, 3, 3, 2, 3, 3, 3, 1, 4, 3, 2, 3, 3, 3, 3, 4, 4, 3, 5, 4, 3, 3, 4, 4, 4, 5, 4, 4, 3, 4, 4, 4, 5, 4, 4, 3, 4, 4, 4, 5, 5, 4, 4, 4, 4, 5, 5, 6, 4, 4, 4, 4, 5, 6, 6, 4, 5, 5, 5, 5, 6, 6, 4, 5, 5, 6, 6, 7, 6, 5, 5, 5, 6, 6, 7, 7, 5, 6, 5, 6, 6, 7, 7, 7, 6, 6, 7, 6, 7, 7, 7)#
+datasb8=c(2, 3, 1, 2, 3, 3, 2, 2, 3, 2, 3, 3, 3, 2, 2, 3, 2, 3, 3, 5, 3, 2, 4, 5, 3, 3, 5, 3, 3, 5, 6, 3, 4, 6, 4, 3, 6, 6, 3, 6, 6, 4, 3, 7, 6, 3, 6, 6, 5, 4, 7, 6, 3, 6, 6, 5, 4, 7, 7, 3, 6, 6, 6, 4, 7, 7, 3, 7, 6, 7, 4, 7, 7, 4, 7, 6, 7, 5, 8, 10, 7, 8, 6, 7, 5, 8, 10, 7, 9, 9, 11, 8, 8, 10, 10, 11, 11, 11)#
+datasm25=c(6, 1, 3, 2, 2, 3, 3, 6, 1, 5, 9, 6, 3, 10, 8, 3, 5, 12, 10, 3, 10, 8, 4, 5, 12, 10, 7, 10, 8, 5, 7, 12, 10, 8, 10, 8, 5, 9, 13, 11, 11, 10, 9, 5, 11, 13, 12, 12, 10, 9, 5, 11, 13, 12, 12, 10, 9, 6, 19, 15, 12, 13, 10, 9, 6, 19, 15, 12, 14, 12, 10, 9, 19, 20, 13, 15, 14, 10, 10, 21, 20, 16, 17, 17, 10, 18, 21, 20, 19, 23, 17, 11, 18, 21, 20, 22, 24, 25)#
+dataspeac7=c(3, 5, 1, 2, 1, 2, 3, 3, 5, 1, 3, 3, 2, 3, 3, 5, 3, 3, 3, 2, 3, 3, 5, 3, 4, 3, 2, 4, 3, 6, 3, 4, 3, 5, 4, 3, 7, 5, 4, 4, 5, 5, 5, 8, 5, 4, 5, 5, 5, 5, 8, 6, 6, 5, 5, 5, 6, 10, 6, 6, 5, 6, 5, 6, 10, 6, 6, 6, 6, 6, 7, 11, 6, 9, 6, 6, 6, 7, 11, 8, 9, 6, 8, 16, 7, 14, 8, 9, 6, 9, 16, 8, 15, 9, 9, 13, 12, 17)#
+datasm23=c(5, 4, 4, 4, 1, 1, 2, 5, 4, 4, 4, 3, 3, 4, 5, 4, 4, 4, 4, 3, 4, 5, 4, 4, 4, 4, 3, 5, 5, 4, 4, 7, 4, 3, 5, 5, 5, 5, 7, 5, 5, 8, 5, 5, 5, 7, 5, 5, 9, 5, 5, 5, 7, 5, 5, 9, 5, 5, 5, 7, 8, 5, 10, 7, 5, 5, 7, 8, 5, 10, 7, 5, 5, 7, 8, 5, 10, 7, 5, 5, 7, 10, 9, 10, 9, 5, 9, 8, 10, 9, 10, 11, 6, 9, 9, 10, 9, 10)#
+dataspead103=c(1, 2, 1, 1, 1, 1, 1, 1, 5, 1, 1, 1, 1, 1, 1, 5, 1, 2, 2, 1, 1, 2, 6, 1, 2, 3, 8, 2, 2, 6, 2, 2, 4, 10, 2, 2, 7, 2, 7, 4, 10, 8, 5, 7, 2, 7, 7, 11, 8, 5, 7, 2, 8, 7, 11, 8, 7, 8, 2, 8, 8, 11, 9, 8, 9, 2, 8, 9, 11, 9, 10, 9, 2, 9, 13, 11, 10, 12, 10, 6, 11, 13, 12, 10, 12, 10, 6, 11, 13, 12, 10, 12, 11, 14, 12, 15, 15, 12)#
+dataspead7=c(3, 7, 3, 4, 1, 3, 5, 3, 7, 3, 7, 2, 4, 6, 3, 7, 4, 8, 4, 5, 6, 6, 7, 4, 8, 5, 5, 6, 6, 7, 7, 8, 8, 6, 7, 6, 8, 7, 8, 8, 7, 7, 9, 8, 7, 8, 8, 7, 7, 9, 9, 8, 9, 9, 7, 7, 9, 9, 8, 9, 11, 7, 7, 11, 10, 8, 10, 11, 9, 7, 13, 10, 12, 10, 11, 9, 10, 15, 10, 12, 11, 11, 11, 10, 15, 10, 14, 14, 12, 11, 10, 15, 15, 15, 14, 13, 11, 10)#
+dataspead111=c(4, 1, 4, 2, 3, 2, 5, 5, 1, 4, 4, 3, 5, 5, 5, 4, 4, 6, 4, 5, 7, 5, 4, 4, 6, 4, 6, 7, 5, 4, 5, 6, 5, 7, 7, 6, 6, 5, 6, 5, 7, 7, 6, 6, 5, 6, 6, 7, 8, 6, 6, 6, 7, 7, 7, 9, 6, 7, 6, 7, 8, 7, 9, 6, 7, 7, 8, 10, 9, 10, 6, 7, 7, 8, 11, 9, 10, 7, 8, 8, 8, 11, 10, 11, 8, 8, 8, 9, 11, 10, 11, 11, 8, 9, 9, 12, 13, 13)#
+## Usage example#
+require(plyr) ## Just needed for the round_any() in this example#
+n <- 98 ##total number of alleles#
+numberOfHists <- 7 ##populations#
+datasm14 <- data.frame(ReleaseDOYsm14 = datasm14,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+datasm1 <- data.frame(ReleaseDOYsm1 = datasm1,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+datasb15 <- data.frame(ReleaseDOYsb15 = datasb15,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+datasb8 <- data.frame(ReleaseDOYsb8 = datasb8,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+datasm25 <- data.frame(ReleaseDOYsm25 = datasm25,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+dataspeac7 <- data.frame(ReleaseDOYspeac7 = dataspeac7,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+datasm23 <- data.frame(ReleaseDOYsm23 = datasm23,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+dataspead103 <- data.frame(ReleaseDOYspead103 = dataspead103,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+dataspead7 <- data.frame(ReleaseDOYspead7 = dataspead7,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+dataspead111 <- data.frame(ReleaseDOYspead111 = dataspead111,#
+                   bin = as.factor(rep(c(1, 2, 3, 4,5,6,7), n / 7))) ##6=# populations#
+binWidth <- 1#
+binStarts <- c(1, 2, 3, 4, 5, 6, 7) ## number of pops#
+binMids <- binStarts + binWidth / 2#
+axisCol <- "gray80"#
+##so far so good#
+## Data handling#
+DOYrangesm14 <- range(datasm14$ReleaseDOYsm14)#
+DOYrangesm1 <- range(datasm1$ReleaseDOYsm1)#
+DOYrangesb15 <- range(datasb15$ReleaseDOYsb15)#
+DOYrangesb8 <- range(datasb8$ReleaseDOYsb8)#
+DOYrangesm25 <- range(datasm25$ReleaseDOYsm25)#
+DOYrangespeac7 <- range(dataspeac7$ReleaseDOYspeac7)#
+DOYrangesm23 <- range(datasm23$ReleaseDOYsm23)#
+DOYrangespead103 <- range(dataspead103$ReleaseDOYspead103)#
+DOYrangespead7 <- range(dataspead7$ReleaseDOYspead7)#
+DOYrangespead111 <- range(dataspead111$ReleaseDOYspead111)#
+####DOYrange <- c(round_any(DOYrange[1], 15, floor),#
+###                      round_any(DOYrange[2], 15, ceiling))  ###this used in original script but doesn't seem necessary for my integer data#
+## Get the histogram obects#
+histListsm14 <- with(datasm14, tapply(ReleaseDOYsm14, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangesm14[1], DOYrangesm14[2], by = 1)))#
+DOYmeansm14 <- with(datasm14, tapply(ReleaseDOYsm14, bin, mean))#
+histListsm1 <- with(datasm1, tapply(ReleaseDOYsm1, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangesm1[1], DOYrangesm1[2], by = 1)))#
+DOYmeansm1 <- with(datasm1, tapply(ReleaseDOYsm1, bin, mean))#
+histListsb15 <- with(datasb15, tapply(ReleaseDOYsb15, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangesb15[1], DOYrangesb15[2], by = 1)))#
+DOYmeansb15 <- with(datasb15, tapply(ReleaseDOYsb15, bin, mean))#
+histListsb8 <- with(datasb8, tapply(ReleaseDOYsb8, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangesb8[1], DOYrangesb8[2], by = 1)))#
+DOYmeansb8 <- with(datasb8, tapply(ReleaseDOYsb8, bin, mean))#
+histListsm25 <- with(datasm25, tapply(ReleaseDOYsm25, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangesm25[1], DOYrangesm25[2], by = 1)))#
+DOYmeansm25 <- with(datasm25, tapply(ReleaseDOYsm25, bin, mean))#
+histListspeac7 <- with(dataspeac7, tapply(ReleaseDOYspeac7, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangespeac7[1], DOYrangespeac7[2], by = 1)))#
+DOYmeanspeac7 <- with(dataspeac7, tapply(ReleaseDOYspeac7, bin, mean))#
+histListsm23 <- with(datasm23, tapply(ReleaseDOYsm23, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangesm23[1], DOYrangesm23[2], by = 1)))#
+DOYmeansm23 <- with(datasm23, tapply(ReleaseDOYsm23, bin, mean))#
+histListspead103 <- with(dataspead103, tapply(ReleaseDOYspead103, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangespead103[1], DOYrangespead103[2], by = 1)))#
+DOYmeanspead103 <- with(dataspead103, tapply(ReleaseDOYspead103, bin, mean))#
+histListspead7 <- with(dataspead7, tapply(ReleaseDOYspead7, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangespead7[1], DOYrangespead7[2], by = 1)))#
+DOYmeanspead7 <- with(dataspead7, tapply(ReleaseDOYspead7, bin, mean))#
+histListspead111 <- with(dataspead111, tapply(ReleaseDOYspead111, bin, hist, plot = FALSE,#
+    breaks = seq(DOYrangespead111[1], DOYrangespead111[2], by = 1)))#
+DOYmeanspead111 <- with(dataspead111, tapply(ReleaseDOYspead111, bin, mean))#
+## Plotting#
+par(mar = c(5, 5, 1, 1) + .1, mfrow=c(4,3))  ##########change this for 10 panels###################
+#######################################################################################################################################################
+###locussm14#
+plot(c(0, 8), DOYrangesm14, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,8) 1 more than pops included#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "Sm14", cex = .75)#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:16), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListsm14, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListsm14[[lengthBin]])  #######histList#
+    }#
+###locussm1#
+plot(c(0, 8), DOYrangesm1, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,8) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "Sm1", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:13), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListsm1, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListsm1[[lengthBin]])  #######histList#
+    }#
+###locussb15#
+plot(c(0, 8), DOYrangesb15, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "Sb15", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:7), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListsb15, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListsb15[[lengthBin]])  #######histList#
+    }#
+###locussb8#
+plot(c(0, 8), DOYrangesb8, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "Sb8", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:11), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListsb8, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListsb8[[lengthBin]])  #######histList#
+    }#
+###locussm25#
+plot(c(0, 8), DOYrangesm25, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "Sm25", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:25), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListsm25, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListsm25[[lengthBin]])  #######histList#
+    }#
+###locusspeac7#
+plot(c(0, 8), DOYrangespeac7, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "SpeaC7", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:17), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListspeac7, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListspeac7[[lengthBin]])  #######histList#
+    }#
+###locussm23#
+plot(c(0, 8), DOYrangesm23, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "Sm23", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:11), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListsm23, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListsm23[[lengthBin]])  #######histList#
+    }#
+###locusspead103#
+plot(c(0, 8), DOYrangespead103, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "SpeaD103", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:15), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListspead103, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListspead103[[lengthBin]])  #######histList#
+    }#
+###locusspead7#
+plot(c(0, 8), DOYrangespead7, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "SpeaD7", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:15), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListspead7, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListspead7[[lengthBin]])  #######histList#
+    }#
+###locusspead111#
+plot(c(0, 8), DOYrangespead111, type = "n",#
+     ann = FALSE, axes = FALSE, xaxs = "i", yaxs = "i")  ##c(0,10) 1 more than pops included; change DOYranges#
+axis(1, cex.axis = 1.2, col = axisCol,#
+	at = c(1:7),#
+	labels = c("RM", "Ellis", "Payne", "Finney", "Limon", "Purdhum", "TS"), tck = 0)#
+	mtext(side = 1, outer = F, line = 3, "populations",#
+      cex = .75)#
+axis(2, cex.axis = 1, las = 1, line = -.7, col = "white") #
+mtext(side = 2, outer = F, line = 3.5, "SpeaD111", cex = .75) ##locus name#
+box(bty = "L", col = axisCol)#
+## Gridlines#
+abline(h = c(0:13), col = "gray80") ##########1:n is number of allele#
+biggestDensity <- max(unlist(lapply(histListspead111, function(h){max(h[[4]])})))  ######histList is data#
+xscale <- binWidth * .9 / biggestDensity#
+## Plot the histograms#
+for (lengthBin in 1:numberOfHists) {#
+    VerticalHist(binStarts[lengthBin], xscale = xscale,#
+                         xwidth = binWidth, histListspead111[[lengthBin]])  #######histList#
+    }
+install.packages("shape")#
+install.packages("plotrix")#
+require(shape)#
+require(plotrix)#
+windows()#
+par(mar=c(5.1,4.1,4.1,2.1))#
+dr <- 0.005#
+emptyplot(main = " ")#
+Arrowhead(x0 =0.85, y0 = 0.9, angle = 50,#
+arr.length = 2.7, arr.lwd=1.5, arr.type = "triangle", arr.col = shadepalette(endcol = "lightgrey"))#
+Arrowhead(x0 =0.15, y0 = 0.9, angle = 130, arr.length = 2.7, arr.lwd=1.5, arr.type = "triangle", arr.col = shadepalette(endcol = "lightgrey"))#
+filledcircle(r1 = 0.41, mid = c(0.5, 0.5), dr = dr, lwd=1.5, lcol="black", col = shadepalette(endcol = "lightgrey"))#
+filledcircle(r1 = 0.07, mid = c(0.6, 0.6), dr = dr, col = shadepalette(endcol = "black"))#
+filledcircle(r1 = 0.07, mid = c(0.4, 0.6), dr = dr, col = shadepalette(endcol = "black"))#
+segments(0.5,0.4, 0.5,0.25, col="black")#
+segments(0.2,0.4, 0.8,0.4, col="black")#
+segments(0.2,0.3, 0.8,0.5, col="black")#
+segments(0.2,0.5, 0.8,0.3, col="black")#
+filledcircle(r1 = 0.04, mid = c(0.5, 0.4), dr = dr,#
+col = shadepalette(endcol = "pink"))#
+segments(0.4,0.25, 0.6,0.25, col="black")#
+title("MEOW", sub = "I need to get out more",#
+      cex.main = 2,   font.main= 3, col.main= "darkgrey",#
+      cex.sub = 0.75, font.sub = 3, col.sub = "red")
+library(RColorBrewer)#
+qualitative <- brewer.pal(11, "Set3")#
+#
+input <- read.table(file="otu_table_visits_scope_L5-top10-orderOnPrevalenceVisit.txt",head=TRUE,sep="\t")#
+attach(input)#
+input#
+#
+#use line below and last line when not wanting to show plot on R screen#
+#pdf(file='OTU_composition_visits_individuals.pdf')#
+#
+#create space for the plot#
+par(mfrow=c(1,2))#
+par(mar=c(5,4,4,0) + 0.1)#
+#
+#plot the data#
+x <- as.matrix(input[-1])   #
+barplot(t(x), col = qualitative, ylab = "Relative abundance", main = "OTU composition", las = 3)#
+#
+#place labels under the bars#
+mtext("V1-Control",line=1,side=1,at=7.5,las=2)#
+mtext("V2-Control",line=1,side=1,at=25,las=2)#
+mtext("V1-CRAI",line=1,side=1,at=53,las=2)#
+mtext("V2-CRAI",line=1,side=1,at=93,las=2)#
+#grouping lines#
+axis(1,at=c(0.5,1,2,3,15.5),col="red",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+axis(1,at=15.5+c(0.5,1,2,3,20),col="blue",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+axis(1,at=35.5+c(0.5,1,2,3,35),col="red",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+axis(1,at=70.5+c(0.5,1,2,3,41),col="blue",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+#
+#create space for the legend outside the plot#
+par(mar=c(5,0,4,1) + 0.1)#
+plot(x, axes = FALSE, ann = FALSE, type = "n")	#
+#
+#the legend#
+legend("topleft", #
+legend = c("Other", "Enterobacteriaceae", "Alcaligenaceae", "Erysipelotrichaceae", "Tissierellaceae", "Veillonellaceae", "Ruminococcaceae", "Lachnospiraceae", "Streptococcaceae","Prevotellaceae","Bacteroidaceae"),#
+fill = qualitative [11:1], title = "Family")#
+#
+#dev.off()
+library(RColorBrewer)#
+qualitative <- brewer.pal(11, "Set3")#
+#
+#load in example data#
+input <- read.table(file="Microbe_data.txt",head=TRUE,sep="\t")#
+attach(input)#
+input#
+#
+#use line below and last line when not wanting to show plot on R screen#
+#pdf(file='OTU_composition_visits_individuals.pdf')#
+#
+#create space for the plot#
+par(mfrow=c(1,2))#
+par(mar=c(5,4,4,0) + 0.1)#
+#
+#plot the data#
+x <- as.matrix(input[-1])   #
+barplot(t(x), col = qualitative, ylab = "Relative abundance", main = "OTU composition", las = 3)#
+#
+#place labels under the bars#
+mtext("V1-Control",line=1,side=1,at=7.5,las=2)#
+mtext("V2-Control",line=1,side=1,at=25,las=2)#
+mtext("V1-CRAI",line=1,side=1,at=53,las=2)#
+mtext("V2-CRAI",line=1,side=1,at=93,las=2)#
+#grouping lines#
+axis(1,at=c(0.5,1,2,3,15.5),col="red",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+axis(1,at=15.5+c(0.5,1,2,3,20),col="blue",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+axis(1,at=35.5+c(0.5,1,2,3,35),col="red",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+axis(1,at=70.5+c(0.5,1,2,3,41),col="blue",line=0.5,tick=T,labels=rep("",5),lwd=3,lwd.ticks=0)#
+#
+#create space for the legend outside the plot#
+par(mar=c(5,0,4,1) + 0.1)#
+plot(x, axes = FALSE, ann = FALSE, type = "n")	#
+#
+#the legend#
+legend("topleft", #
+legend = c("Other", "Enterobacteriaceae", "Alcaligenaceae", "Erysipelotrichaceae", "Tissierellaceae", "Veillonellaceae", "Ruminococcaceae", "Lachnospiraceae", "Streptococcaceae","Prevotellaceae","Bacteroidaceae"),#
+fill = qualitative [11:1], title = "Family")#
+#
+#dev.off()
